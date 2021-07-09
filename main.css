@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: orange;
+  background: rgb(255,145,77);
   /*Matheus = essa parte está dando cor ao site inteiro */
 }
 
@@ -27,6 +27,7 @@ h1 {
   align-items: center;
   justify-content: center;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: xx-large;
   /*Matheus = essa parte está centralizando as letras do Nossos produtos/serviços e mudando a fonte dela */
 }
 
@@ -50,7 +51,7 @@ li {
   height: 80px;
   width: 120px;
   max-width: 100%;
-  background-color: orangered;
+  background-color: #fff;
   transition: all 0.2s;
   list-style: none;
   text-align: center;
@@ -79,4 +80,10 @@ li:hover {
   text-align: center;
   font-size: xx-large;
   /*Matheus = essa parte está centralizando e aumentando o tamanho das fontes nos cards */
+}
+
+@media (max-width: 400px){
+  h1 {
+    width: 100%; 
+  }  
 }
