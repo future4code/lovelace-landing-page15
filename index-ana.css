@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+main {
+  margin: 0;
+  padding: 0;
+  background: #ffffff url('./img/predios1.jpg') no-repeat center top fixed;
+}
+header {
+  background-color: #042138;
+  margin: 0;
+}
+
+.menu {
+  grid: flex;
+
+  justify-content: center;
+  height: 55px;
+  width: auto;
+  text-align: center;
+  font-family: verdana;
+  font-size: 25px;
+  padding: 14px 16px;
+  margin: 0;
+}
+ul {
+  top: 0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ff914d; /*para que a barra fique comprida é preciso que esteja na mesma cor que o background do botão*/
+}
+
+#botao-grupo .botao {
+  background-color: #ff914d;
+  border: none;
+  color: white;
+  padding: 23px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  float: right; /* aqui o menu fica centralizado ou para um determinado lado*/
+}
+#botao-grupo .botao:hover {
+  background-color: #ffbd59;
+  text-align: center;
+  display: inline-block;
+}
+.botaoprincipal {
+  background-color: #ff914d;
+  border: none;
+  color: white;
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+#h1ana {
+  color: #e2d6d6;
+  text-align: left; /*titulo fica na esquerda*/
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#h2ana {
+  padding: 10px;
+  color: #ff914d;
+  text-align: center; /*titulo fica no centro*/
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgba(1, 0, 0, 0.712);
+  padding: 20px;
+  margin: 0;
+}
+#textoesquerda {
+  font-family: verdana;
+  font-size: 20px;
+  color: rgb(246, 246, 246);
+  background-color: rgba(163, 113, 47, 0.767);
+  text-align: center;
+  max-width: 40%;
+  border: 20px coral;
+  padding: 50px;
+  margin: 10px;
+  margin-left: auto;
+  margin-right: 50%;
+}
+
+#textodireita {
+  font-family: Verdana;
+  font-size: 20px;
+  color: rgb(246, 246, 246);
+  background-color: rgba(163, 113, 47, 0.767);
+  text-align: center;
+  max-width: 40%;
+  border: 20px coral;
+  padding: 50px;
+  margin: 0; /*isso aqui deixa a foto colada com a divisoria preta*/
+  margin-left: 50%;
+  margin-right: auto;
+}
+
+/*divisoria*/
+#divisoria1 {
+  height: 100px;
+  background-color: black;
+}
+#h3ana {
+  background-color: black;
+  color: #ff914d;
+  padding: 50px;
+  text-align: center;
+  max-width: 100%;
+  max-weight: 150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#logotipo {
+  padding: 30px;
+  right: 50%;
+  top: 50%;
+}
+/*responsividade*/
+@media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  /* celulares */
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  main {
+    margin: 0;
+    padding: 0;
+    background: #ffffff url('./img/predios1.jpg') no-repeat center top fixed;
+  }
+  .menu {
+    grid: flex;
+    justify-content: center;
+    height: 100%;
+    width: auto;
+    text-align:center;
+    font-family: verdana;
+    font-size:10px;
+    margin: 0;
+  }
+  ul {
+    top: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ff914d; /*para que a barra fique comprida é preciso que esteja na mesma cor que o background do botão*/
+  }
+
+  #botao-grupo .botao {
+    background-color: #ff914d;
+    border: none;
+    color: white;
+    padding: 23px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    float:left; /* aqui o menu fica centralizado ou para um determinado lado*/
+  }
+  #botao-grupo .botao:hover {
+    background-color: #ffbd59;
+    text-align: center;
+
+  }
+  #textoesquerda {
+    font-family: verdana;
+    font-size: 100%;
+    color: rgb(246, 246, 246);
+    background-color: rgba(163, 113, 47, 0.767);
+    text-align: justify;
+    max-width: 40%;
+    border: 50% coral;
+    padding: 10%;
+    margin: 10%;
+    margin-left: auto;
+  }
+  #textodireita {
+    font-family: verdana;
+    font-size: 100%;
+    color: rgb(246, 246, 246);
+    background-color: rgba(163, 113, 47, 0.767);
+    text-align: justify;
+    max-width: 40%;
+    border: 50% coral;
+    padding: 10%;
+    margin: 10%;
+    margin-right: auto;
+    margin: 0; /*isso aqui deixa a foto colada com a divisoria preta*/
+  }
+
+/*area de contato*/
