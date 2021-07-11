@@ -1,112 +1,477 @@
+/* Ana --------------xx----------------xxx---------------xxx-------------xx--- */
+
 * {
-    margin: 0;
-    padding: 0;
- 
+  margin: 0;
+  padding: 0;
 }
 
+.main-ana {
+  margin: 0;
+  padding: 0;
+  background: #ffffff url('./img/predios1.jpg') no-repeat center top fixed;
+}
+.header-ana {
+  background-color: #FF914D;
+  margin: 0;
+}
 
+.menu {
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  width: auto;
+  text-align: center;
+  font-family: verdana;
+  font-size: 25px;
+  padding: 14px 16px;
+  margin: 0;
+}
+.botao-grupo {
+  top: 0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: initial;
+  background-color:  #ffbd59;
+  #ffbd59
+}
 
-.icone-e-texto-footer { 
+#botao-grupo .botao {
+  background-color: #FF914D;
+  border: none;
+  color: white;
+  padding: 23px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#botao-grupo .botao:hover {
+  background-color: #ffbd59;
+  text-align: center;
+  display: inline-block;
+}
+
+#h1ana {
+  color: #e2d6d6;
+  text-align: left;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-right: 250px;
+}
+#h2ana {
+  color: #ff914d;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgba(1, 0, 0, 0.712);
+  padding: 20px;
+  margin: 0;
+}
+#textoesquerda {
+  font-family: verdana;
+  font-size: 20px;
+  color: rgb(246, 246, 246);
+  background-color: rgba(163, 113, 47, 0.767);
+  text-align: center;
+  max-width: 40%;
+  border: 20px coral;
+  padding: 50px;
+  margin: 10px;
+  margin-left: auto;
+  margin-right: 50%;
+}
+
+#textodireita {
+  font-family: Verdana;
+  font-size: 20px;
+  color: rgb(246, 246, 246);
+  background-color: rgba(163, 113, 47, 0.767);
+  text-align: center;
+  max-width: 40%;
+  border: 20px coral;
+  padding: 50px;
+  margin: 0;
+  margin-left: 50%;
+  margin-right: auto;
+}
+
+/*divisoria*/
+#divisoria1 {
+  height: 100px;
+  background-color: black;
+}
+#h3ana {
+  background-color: black;
+  color: #ff914d;
+  padding: 50px;
+  text-align: center;
+  max-width: 100%;
+  /* max-weight: 150px; */
+  margin-left: auto;
+  margin-right: auto;
+}
+#logotipo {
+  padding: 30px;
+  right: 50%;
+  top: 50%;
+}
+/*responsividade*/
+@media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  /* celulares */
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  main {
+    margin: 0;
+    padding: 0;
+    background: #ffffff url('./img/predios1.jpg') no-repeat center top fixed;
+  }
+  .menu {
     display: flex;
-    align-items: center;
-    justify-content:  space-evenly;
-    background-color: rgb(255, 189, 89);
+    justify-content: center;
+    height: auto;
+    width: auto;
+    text-align: center;
+    font-family: verdana;
+    font-size: 10px;
+    margin: 0;
+    
+  }
+  ul {
+    top: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ff914d;
   }
 
-  .icone-footer{
-    height: 5em;
-    width: 10em;
-   }
+  #botao-grupo .botao {
+    background-color: #ff914d;
+    border: none;
+    color: white;
+    padding: 0.5em 1.4em;
+    margin: 0.2em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border:rgb(214, 214, 213);
+    border-style: solid;
+    border-radius: 2em;
 
-  .icone-footer:hover{
-    -webkit-transform: rotateZ(-30deg);
-    -ms-transform: rotateZ(-30deg);
-    transform: rotateZ(-30deg);
+    /* float:left; aqui o menu fica centralizado ou para um determinado lado */
   }
-  .booton-footer{
+  #botao-grupo .botao:hover {
+    background-color: #ffbd59;
+    text-align: center;
+  }
+  #textoesquerda {
+    font-family: verdana;
+    font-size: 100%;
+    color: rgb(246, 246, 246);
+    background-color: rgba(163, 113, 47, 0.767);
+    text-align: justify;
+    max-width: 40%;
+    border: 50% coral;
+    padding: 10%;
+    margin: 10%;
+    margin-left: auto;
+  }
+  #textodireita {
+    font-family: verdana;
+    font-size: 100%;
+    color: rgb(246, 246, 246);
+    background-color: rgba(163, 113, 47, 0.767);
+    text-align: justify;
+    max-width: 40%;
+    border: 50% coral;
+    padding: 10%;
+    margin: 10%;
+    margin-right: auto;
+    margin: 0; /*isso aqui deixa a foto colada com a divisoria preta*/
+  }
+  #divisoria1 {
+    height: 200px;
+    background-color: black;
+  }
+}
+/* Matheus --------------xxx-------------xxx-----------------xxx-----------xx*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.body-matheus {
+  background: #ffffff url('./img/predios1.jpg') no-repeat center top fixed;
+
+}
+
+ /*main {
+  height: 200px;
+  margin-top: 30px;
+  color: #ff914d;
+ }*/
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 30px;
+}
+
+.h1-matheus {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: xx-large;
+  background-color: rgba(1, 0, 0, 0.712);
+  color: #ff914d;
+  text-align: center;
+  padding: 20px;
+  margin: 0;
+}
+
+ul {
+  display: flex;
+  margin: 5px;
+  align-items: center;
+  flex-direction: column;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: large;
+  flex-wrap: wrap;
+
+  /*Matheus = essa parte está centralizando, dando uma margem, mudando o tamanho e a fonte */
+}
+
+li {
+
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px;
+  height: 80px;
+  width: 120px;
+  max-width: 100%;
+  background-color: #fff;
+  transition: all 0.2s;
+  list-style: none;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 10px;
+  padding: 01%;
+  border-bottom-style: solid;
+  /*Matheus = essa parte é a mais fundamental e que deu trabalho kkkk, está centralizando, mostrando o cursor dos cards, dando tamanho, altura, largura e margem, uma transição e mudando a fonte */
+}
+
+li:hover {
+  
+  width: 140px;
+  height: 100px;
+  /*Matheus = essa parte está dando largura e tamanho para as opções(cards) e fazendo as "animações" */
+}
+
+.card {
+  color: #ff914d;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 400px;
+  /*Matheus = essa parte está centralizando os cards e dando largura a eles */
+}
+
+.card p {
+
+  text-align: center;
+  font-size: xx-large;
+  /*Matheus = essa parte está centralizando e aumentando o tamanho das fontes nos cards */
+}
+
+@media (max-width: 400px) {
+  /* h1 {
+    width: 100%; 
+  }   */
+}
+
+/* luis ---------------xxx-----------------------------x----------------xxx */
+* {
+  margin: 0;
+  padding: 0;
+}
+.h1footer {
+  font-family: Verdana;
+}
+footer {
+  background-color: rgb(255, 189, 89);
+}
+
+.icone-e-texto-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: rgb(255, 189, 89);
+}
+
+.icone-footer {
+  height: 5em;
+  width: 10em;
+  border-radius: 1rem;
+  margin-top: 1%;
+}
+
+.icone-footer:hover {
+  -webkit-transform: rotateZ(-30deg);
+  -ms-transform: rotateZ(-30deg);
+  transform: rotateZ(-30deg);
+}
+.booton-footer {
+  background-color: rgb(255, 145, 77);
+  height: 4em;
+  border-radius: 2rem;
+  padding-inline: 1rem;
+}
+
+.booton-footer:hover {
+  border-radius: 50%;
+}
+
+.imagem-footer {
+  position: relative;
+}
+
+.capa-footer {
+  display: none;
+}
+
+.imagem-footer:hover .capa-footer {
+  display: block;
+}
+
+.capa-footer {
+  background: rgba(255, 189, 89, 0.4);
+  width: 100%;
+  height: 60%;
+  position: absolute;
+  top: 0;
+  text-align: center;
+  padding-top: 35%;
+  color: #ffffff;
+}
+.img-foto-footer {
+  width: 88%;
+  height: 88%;
+  border-radius: 1.5rem;
+}
+.div-footer-grid {
+  background-color: rgb(255, 189, 89);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 0.5%;
+  row-gap: 1%;
+  overflow: hidden;
+  margin-left: 3%;
+  margin-top: 2%;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(255, 189, 89, 0.418);
+  text-decoration: none;
+  border-color: rgba(0, 0, 0, 0.548);
+  border-style: solid;
+  border-radius: 1.5rem;
+}
+.btn::after {
+  content: '↑';
+  font-size: 32px;
+  font-weight: bold;
+  color: rgb(5, 5, 5);
+  transition: margin-top 250ms;
+}
+.btn:hover::after {
+  margin-top: -8px;
+}
+
+ /*Responsividade*/
+ @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  /* celulares */
+  *{
+      background-color: rgb(255, 189, 89);
+  }
+  .h1footer{
+   font-size: 1rem;
+    
+  }
+  .div-footer-grid{
+      margin: 1em;
+      background-color: rgb(255, 189, 89);
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      column-gap: 2%;
+      row-gap: 1%;
+      overflow: hidden;
+     
+    }
+    .booton-footer{
+      display: none;
       background-color: rgb(255, 145, 77);
       height: 4em;
       
   }
-  .booton-footer:hover
-{
-        border-radius:50%;
-}
-
-.imagem-footer {
-    position: relative;
-  }
- 
-  
-  .capa-footer {
-    display: none;
-  }
-  
-  .imagem-footer:hover .capa-footer {
-    display: block;
-  }
-  
-  .capa-footer {
-    background: rgba(255, 189, 89, 0.4);
-    width: 100%;
-    height: 60%;
-    position: absolute;
-    top: 0;
-    text-align: center;
-    padding-top: 35%;
-    color:#ffffff
-  }
-  .img-foto-footer{
-      width: 100%;
-      height: 100%;
-  }
-  .div-footer-grid{
-    background-color: rgb(255, 189, 89);
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    column-gap: 0.5%;
-    row-gap: 1%;
-    overflow: auto;
-  }
-
-
-
-  /*Responsividade*/
-  @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
-    /* celulares */
-    *{
-        background-color: rgb(255, 189, 89);
+    
+  .icone-e-texto-footer { 
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: rgb(255, 189, 89);
+      margin: 1em;
     }
-
-    .div-footer-grid{
-        margin: 1em;
-        background-color: rgb(255, 189, 89);
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        column-gap: 2%;
-        row-gap: 1%;
-        overflow: hidden;
-       
-      }
-      .booton-footer{
-        display: none;
-        background-color: rgb(255, 145, 77);
-        height: 4em;
-        
-    }
+    .icone-footer{
+      height: 3em;
+      width: 5em;
+     }
+     .btn {
+      display: none;
+      justify-content: center;
+      align-items: center;
+      position: fixed;
+      bottom: 10px;
+      right: 10px;
+      width: 50px;
+      height: 50px;
+      background-color: rgba(255, 189, 89, 0.418);
+      text-decoration: none;
+      border-color: rgba(0, 0, 0, 0.548);
+      border-style: solid;
+      border-radius: 1.5rem;
       
-    .icone-e-texto-footer { 
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background-color: rgb(255, 189, 89);
-        margin: 1em;
-      }
-      .icone-footer{
-        height: 3em;
-        width: 5em;
-       }
+  }
+  .btn::after {
+    display: none;
     
+      content: "↑";
+      font-size: 32px;
+      font-weight: bold;
+      color: rgb(5, 5, 5);
+      transition: margin-top 250ms;
+     
+  }
+  .btn:hover::after {
+    display: none;
+      margin-top:-8px;
+     
+  }
 
-    }
-    
+  }
