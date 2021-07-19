@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: rgb(255,145,77);
+  /*Matheus = essa parte está dando cor ao site inteiro */
+}
+
+main {
+  height: 200px;
+  margin-top: 30px;
+  /*Matheus = essa parte está dando altura e um espaço ao título Nossos produtos/serviços */
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 30px;
+  /*Matheus = essa parte está centralizando os itens e letras */
+}
+
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: xx-large;
+  /*Matheus = essa parte está centralizando as letras do Nossos produtos/serviços e mudando a fonte dela */
+}
+
+ul {
+  display: flex;
+  margin: 5px;
+  align-items: center;
+  flex-direction: column;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: large;
+  flex-wrap: wrap;
+  /*Matheus = essa parte está centralizando, dando uma margem, mudando o tamanho e a fonte */
+}
+
+li {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px;
+  height: 80px;
+  width: 120px;
+  max-width: 100%;
+  background-color: #fff;
+  transition: all 0.2s;
+  list-style: none;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 10px;
+  padding: 01%;
+  border-bottom-style: solid;
+  /*Matheus = essa parte é a mais fundamental e que deu trabalho kkkk, está centralizando, mostrando o cursor dos cards, dando tamanho, altura, largura e margem, uma transição e mudando a fonte */
+}
+
+li:hover {
+  width: 140px;
+  height: 100px;
+  /*Matheus = essa parte está dando largura e tamanho para as opções(cards) e fazendo as "animações" */
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 400px;
+  /*Matheus = essa parte está centralizando os cards e dando largura a eles */
+}
+
+.card p {
+  text-align: center;
+  font-size: xx-large;
+  /*Matheus = essa parte está centralizando e aumentando o tamanho das fontes nos cards */
+}
+
+@media (max-width: 400px){
+  h1 {
+    width: 100%; 
+  }  
+}
